@@ -7,7 +7,9 @@ import SEO from '../components/seo';
 const Publications = () => (
     <Layout>
         <SEO title="Publications" />
-        <h1>Publications</h1>
+        <div className="wrapper">
+            <h1>Publications</h1>
+        </div>
         <div className="wrapper">
             <h2>Poetry--Forthcoming</h2>
             <p>“Absent Parents,” Evening Street Review, Sacramento, CA: 2020</p>

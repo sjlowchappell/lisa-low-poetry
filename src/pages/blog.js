@@ -7,8 +7,10 @@ import SEO from '../components/seo';
 const Blog = () => (
     <Layout>
         <SEO title="Blog" />
-        <h1>Blog</h1>
-        <p>In progress</p>
+        <div className="wrapper">
+            <h1>Blog</h1>
+            <p>In progress</p>
+        </div>
     </Layout>
 );
 

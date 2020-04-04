@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = ({ siteTitle }) => (
     <header>
-        <div>
+        <div className="wrapper">
             <h1>
                 <Link to="/">{siteTitle}</Link>
             </h1>

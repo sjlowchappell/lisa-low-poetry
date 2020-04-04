@@ -7,8 +7,10 @@ import SEO from '../components/seo';
 const Poems = () => (
     <Layout>
         <SEO title="Poems" />
-        <h1>Poems</h1>
-        <p>In progress</p>
+        <div className="wrapper">
+            <h1>Poems</h1>
+            <p>In progress</p>
+        </div>
     </Layout>
 );
 
