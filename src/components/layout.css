@@ -181,9 +181,31 @@ html {
 
 body {
     font-size: 1.8rem;
+    background-color: #f3f5d8;
 }
 
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.red1 {
+    width: 100px;
+    height: 100px;
+    background: #e3170a;
+}
+.red2 {
+    width: 100px;
+    height: 100px;
+    background: #931621;
+}
+.blue1 {
+    width: 100px;
+    height: 100px;
+    background: #41337a;
+}
+.blue2 {
+    width: 100px;
+    height: 100px;
+    background: #175676;
 }
