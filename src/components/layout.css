@@ -174,3 +174,16 @@ input::-moz-focus-inner {
     clip: rect(00 0 0);
     overflow: hidden;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
