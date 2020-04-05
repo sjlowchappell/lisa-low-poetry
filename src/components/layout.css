@@ -214,11 +214,12 @@ a {
     position: relative;
 }
 .heading::after {
-    background: var(--main-red);
-    width: 20px;
-    height: 5px;
     position: absolute;
-    top: 0;
+    top: 55px;
+    left: 0px;
+    content: '';
+    width: 50px;
+    border-bottom: 3px solid var(--main-red);
 }
 
 h1 {

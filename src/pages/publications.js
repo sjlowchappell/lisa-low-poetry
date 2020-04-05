@@ -7,7 +7,7 @@ const Publications = () => (
     <Layout>
         <SEO title="Publications" />
         <div className="wrapper">
-            <h1>Publications</h1>
+            <h1 className="heading">Publications</h1>
         </div>
         <div className="wrapper">
             <h2>Poetry--Forthcoming</h2>

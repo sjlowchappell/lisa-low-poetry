@@ -11,7 +11,7 @@ const Contact = () => {
         <Layout>
             <SEO title="Contact" />
             <div className="wrapper">
-                <h1>Contact</h1>
+                <h1 className="heading">Contact</h1>
                 <p>You can contact me at lisalowwrites@gmail.com</p>
                 <form action="" onSubmit={formSubmit}>
                     <label htmlFor="name">Name:</label>

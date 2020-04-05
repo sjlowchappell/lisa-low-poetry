@@ -7,7 +7,7 @@ const Poems = () => (
     <Layout>
         <SEO title="Poems" />
         <div className="wrapper">
-            <h1>Poems</h1>
+            <h1 className="heading">Poems</h1>
             <p>In progress</p>
         </div>
     </Layout>
