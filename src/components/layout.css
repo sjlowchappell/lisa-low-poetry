@@ -217,7 +217,7 @@ a {
 }
 .heading::before {
     position: absolute;
-    top: 5.5rem;
+    top: 6.5rem;
     left: 31rem;
     content: '';
     width: 6rem;
