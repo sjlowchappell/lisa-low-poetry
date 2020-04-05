@@ -7,7 +7,7 @@ const About = () => (
     <Layout>
         <SEO title="About" />
         <div className="wrapper">
-            <h1>About</h1>
+            <h1 className="heading">About</h1>
             <p>
                 Lisa Low has had many careers---Theatre Critic; Book Reviewer;
                 Writer; Professor; Business Owner; Poet. She received her

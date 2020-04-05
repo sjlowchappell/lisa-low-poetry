@@ -1,0 +1,25 @@
+.header {
+    background: var(--main-red);
+    padding: 2.5rem 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    color: var(--main-white);
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav > * {
+    margin-left: 1.2rem;
+}

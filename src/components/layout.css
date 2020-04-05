@@ -175,6 +175,13 @@ input::-moz-focus-inner {
     overflow: hidden;
 }
 
+:root {
+    --main-red: #931621;
+    --main-blue: #175676;
+    --main-white: #f0f1dd;
+}
+
+/* GENERAL STYLES */
 html {
     font-size: 62.5%;
 }
@@ -182,11 +189,41 @@ html {
 body {
     font-size: 1.8rem;
     background-color: #f0f1dd;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
-    max-width: 800px;
+    max-width: 80rem;
     margin: 0 auto;
+    padding: 0px 1rem;
+}
+
+.siteContent {
+    margin-top: 140px;
+}
+/* TYPOGRAPHY */
+
+.heading {
+    color: var(--main-blue);
+    position: relative;
+}
+.heading::after {
+    background: var(--main-red);
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    top: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
 }
 
 .red1 {

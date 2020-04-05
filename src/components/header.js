@@ -1,30 +1,24 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
+import styles from './header.module.css';
 
-const Header = ({ siteTitle }) => (
-    <header>
+const Header = () => (
+    <header className={styles.header}>
         <div className="wrapper">
-            <h1>
-                <Link to="/">{siteTitle}</Link>
-            </h1>
-            <nav>
-                <Link to="/about/">About</Link>
-                <Link to="/poems/">Poems</Link>
-                <Link to="/publications/">Publications</Link>
-                <Link to="/contact/">Contact</Link>
-                <Link to="/blog/">Blog</Link>
-            </nav>
+            <div className={styles.headerContainer}>
+                <h1>
+                    <Link to="/">LL</Link>
+                </h1>
+                <nav>
+                    <Link to="/about/">About</Link>
+                    <Link to="/poems/">Poems</Link>
+                    <Link to="/publications/">Publications</Link>
+                    <Link to="/contact/">Contact</Link>
+                    <Link to="/blog/">Blog</Link>
+                </nav>
+            </div>
         </div>
     </header>
 );
-
-Header.propTypes = {
-    siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-    siteTitle: ``,
-};
 
 export default Header;
