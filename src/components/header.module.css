@@ -15,6 +15,11 @@
     margin: 0;
 }
 
+.header h1 a {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
 .headerContainer {
     display: flex;
     justify-content: space-between;

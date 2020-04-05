@@ -178,7 +178,7 @@ input::-moz-focus-inner {
 :root {
     --main-red: #931621;
     --main-blue: #175676;
-    --main-white: #eff0e6;
+    --main-white: white;
 }
 
 /* GENERAL STYLES */
@@ -206,29 +206,39 @@ a {
 }
 
 .siteContent {
-    margin-top: 12rem;
+    margin: 15rem 0 8rem;
+    min-height: 73vh;
 }
 /* TYPOGRAPHY */
 
 .heading {
-    color: var(--main-blue);
     position: relative;
+    text-align: center;
 }
-.heading::after {
+.heading::before {
     position: absolute;
     top: 5.5rem;
-    left: 0rem;
+    left: 31rem;
     content: '';
-    width: 6.6rem;
+    width: 6rem;
     border-bottom: 0.4rem solid var(--main-red);
 }
 
-h1 {
+h1,
+h2 {
+    color: var(--main-blue);
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+}
+
+h1 {
     font-size: 5rem;
-    margin: 3rem 0;
+    margin: 7rem 0;
     line-height: 1;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 .red1 {
@@ -250,4 +260,15 @@ h1 {
     width: 100px;
     height: 100px;
     background: #175676;
+}
+
+.footer {
+    padding: 2rem 0;
+    background: var(--main-red);
+    color: var(--main-white);
+    text-align: center;
+}
+
+.footer a {
+    color: var(--main-white);
 }
