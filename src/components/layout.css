@@ -178,7 +178,7 @@ input::-moz-focus-inner {
 :root {
     --main-red: #931621;
     --main-blue: #175676;
-    --main-white: #f0f1dd;
+    --main-white: #eff0e6;
 }
 
 /* GENERAL STYLES */
@@ -187,8 +187,9 @@ html {
 }
 
 body {
-    font-size: 1.8rem;
-    background-color: #f0f1dd;
+    font-size: 1.6rem;
+    /* background: white; */
+    background-color: var(--main-white);
     font-family: 'Montserrat', sans-serif;
     line-height: 1.8;
 }
@@ -199,13 +200,13 @@ a {
 }
 
 .wrapper {
-    max-width: 80rem;
+    max-width: 70rem;
     margin: 0 auto;
     padding: 0px 1rem;
 }
 
 .siteContent {
-    margin-top: 140px;
+    margin-top: 12rem;
 }
 /* TYPOGRAPHY */
 
@@ -215,16 +216,19 @@ a {
 }
 .heading::after {
     position: absolute;
-    top: 55px;
-    left: 0px;
+    top: 5.5rem;
+    left: 0rem;
     content: '';
-    width: 50px;
-    border-bottom: 3px solid var(--main-red);
+    width: 6.6rem;
+    border-bottom: 0.4rem solid var(--main-red);
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+    font-size: 5rem;
+    margin: 3rem 0;
+    line-height: 1;
 }
 
 .red1 {
