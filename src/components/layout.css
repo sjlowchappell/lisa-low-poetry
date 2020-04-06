@@ -175,10 +175,11 @@ input::-moz-focus-inner {
     overflow: hidden;
 }
 
+/* potential main white: #FFF8F0, F7F7FF, #F8E5EE, F5E9E2,  */
 :root {
     --main-red: #931621;
     --main-blue: #175676;
-    --main-white: white;
+    --main-white: #f7f7ff;
 }
 
 /* GENERAL STYLES */
@@ -217,7 +218,7 @@ a {
 }
 .heading::before {
     position: absolute;
-    top: 6.5rem;
+    top: 7.5rem;
     left: 31rem;
     content: '';
     width: 6rem;
@@ -233,7 +234,7 @@ h2 {
 
 h1 {
     font-size: 5rem;
-    margin: 7rem 0;
+    margin: 9rem 0;
     line-height: 1;
 }
 
