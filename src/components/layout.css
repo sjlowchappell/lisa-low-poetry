@@ -274,6 +274,7 @@ h2 {
     background: var(--main-red);
     color: var(--main-white);
     text-align: center;
+    border-top: 1px solid var(--main-blue);
 }
 
 .footer a {
