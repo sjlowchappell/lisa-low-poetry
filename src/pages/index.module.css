@@ -1,0 +1,47 @@
+.heroImage {
+    height: 80vh;
+    background: url(../images/bookShelf.jpg);
+    background-color: #175676;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 50% 58%;
+    margin-top: -7rem;
+}
+
+.heroLine {
+    color: #e3b5a4;
+    font-size: 5rem;
+    padding-top: 25rem;
+    line-height: 1.2;
+    position: relative;
+    z-index: 111;
+}
+.heroLine::before {
+    content: '\201C';
+    color: var(--main-red);
+    position: absolute;
+    top: 11rem;
+    left: -11rem;
+    font-size: 33rem;
+    opacity: 0.6;
+    font-style: italic;
+    z-index: -1;
+}
+
+.heroLine::after {
+    content: '-Mrs. Dalloway';
+    color: #e3b5a4;
+    position: absolute;
+    bottom: -7rem;
+    right: 6rem;
+    font-size: 3rem;
+    font-style: italic;
+}
+/* 
+--main-red: #931621;
+--main-blue: #175676; */
+
+/* potential main white: #F8E5EE, #FFF8F0, F5E9E2, F7F7FF */
+
+/* potential heroLine colors: #E3B5A4, #ED9B40, #FCFF6C  */

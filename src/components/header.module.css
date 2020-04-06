@@ -1,6 +1,6 @@
 .header {
     background: var(--main-red);
-    padding: 1.5rem 0px;
+    padding: 2rem 0px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -13,6 +13,7 @@
 
 .header h1 {
     margin: 0;
+    font-size: 3.5rem;
 }
 
 .header h1 a {
@@ -27,6 +28,6 @@
 }
 
 .header nav > * {
-    margin-left: 1.2rem;
+    margin-left: 2rem;
     font-size: 1.8rem;
 }

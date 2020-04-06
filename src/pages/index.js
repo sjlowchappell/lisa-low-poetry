@@ -2,18 +2,21 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import styles from './index.module.css';
 
 const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
+        <div className={styles.heroImage}>
+            <div className="wrapper">
+                <h1 className={styles.heroLine}>
+                    She has squeezed every drop from the lime of June.”
+                </h1>
+            </div>
+        </div>
         <div className="wrapper">
-            <h1>Lisa Low Website</h1>
             <p>Welcome to your new site.</p>
             <p>In progress.</p>
-            <div className="red1"></div>
-            <div className="blue1"></div>
-            <div className="red2"></div>
-            <div className="blue2"></div>
         </div>
     </Layout>
 );
