@@ -11,11 +11,24 @@ const Header = () => {
                         <Link to="/">LL</Link>
                     </h1>
                     <nav>
-                        <Link to="/about/">About</Link>
-                        <Link to="/poems/">Poems</Link>
-                        <Link to="/publications/">Publications</Link>
-                        <Link to="/contact/">Contact</Link>
-                        <Link to="/blog/">Blog</Link>
+                        <Link activeClassName={styles.active} to="/about/">
+                            About
+                        </Link>
+                        <Link activeClassName={styles.active} to="/poems/">
+                            Poems
+                        </Link>
+                        <Link
+                            activeClassName={styles.active}
+                            to="/publications/"
+                        >
+                            Publications
+                        </Link>
+                        <Link activeClassName={styles.active} to="/contact/">
+                            Contact
+                        </Link>
+                        <Link activeClassName={styles.active} to="/blog/">
+                            Blog
+                        </Link>
                     </nav>
                 </div>
             </div>
