@@ -23,11 +23,11 @@ const Header = () => {
                         >
                             Publications
                         </Link>
-                        <Link activeClassName={styles.active} to="/contact/">
-                            Contact
-                        </Link>
                         <Link activeClassName={styles.active} to="/blog/">
                             Blog
+                        </Link>
+                        <Link activeClassName={styles.active} to="/contact/">
+                            Contact
                         </Link>
                     </nav>
                 </div>
