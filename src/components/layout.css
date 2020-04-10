@@ -280,3 +280,11 @@ h2 {
 .footer a {
     color: var(--main-white);
 }
+
+/* .carousel.carousel-slider .control-arrow:hover {
+    background: rgba(0, 0, 0, 0.2);
+} */
+
+.carousel.carousel-slider button.control-arrow {
+    background: var(--main-blue);
+}

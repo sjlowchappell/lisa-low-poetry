@@ -50,11 +50,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5rem 0px;
+    margin: 5rem 0px 7rem;
 }
 
 .headings {
     text-align: center;
+    font-size: 4rem;
 }
 
 .readMore {
@@ -71,18 +72,18 @@
 }
 
 .homeSeparator1 {
-    height: 40vh;
-    background: url(../images/openBooks.jpg);
+    height: 30vh;
+    background: url(../images/flowerTea.jpg);
     background-color: #175676;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
-    background-position: 50%;
+    background-position: 50% 50%;
 }
 
 .homeSeparator2 {
-    height: 40vh;
-    background: url(../images/flowerTea.jpg);
+    height: 30vh;
+    background: url(../images/openBooks.jpg);
     background-color: #175676;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -92,13 +93,5 @@
 
 .excerpt {
     background: var(--main-white);
-    padding: 20px;
+    padding: 25px;
 }
-
-.carousel.carousel-slider .control-arrow {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-/* .carousel.carousel-slider .control-arrow:hover {
-    background: rgba(0, 0, 0, 0.2);
-} */
