@@ -89,3 +89,16 @@
     background-size: cover;
     background-position: 50%;
 }
+
+.excerpt {
+    background: var(--main-white);
+    padding: 20px;
+}
+
+.carousel.carousel-slider .control-arrow {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* .carousel.carousel-slider .control-arrow:hover {
+    background: rgba(0, 0, 0, 0.2);
+} */
