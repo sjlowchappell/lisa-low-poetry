@@ -288,3 +288,7 @@ h2 {
 .carousel.carousel-slider button.control-arrow {
     background: var(--main-blue);
 }
+
+.carousel-root {
+    width: 100%;
+}
