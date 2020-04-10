@@ -1,0 +1,48 @@
+label,
+input,
+textarea {
+    resize: none;
+}
+
+input,
+textarea {
+    padding: 5px 0px;
+    border: none;
+    border-bottom: 2px solid var(--main-blue);
+    background: var(--main-white);
+}
+
+label {
+    margin: 5px 0px;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 20px 0px;
+}
+
+.nameAndEmailContainer {
+    display: flex;
+}
+
+.nameAndEmailContainer > * {
+    flex: 1 0 auto;
+}
+
+@media (max-width: 550px) {
+    .nameAndEmailContainer {
+        flex-direction: column;
+    }
+    .inputContainer {
+        margin: 20px 0px;
+    }
+    .buttonContainer {
+        text-align: center;
+    }
+}
