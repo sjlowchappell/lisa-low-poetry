@@ -1,0 +1,13 @@
+.excerptsWrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.tileContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile {
+    max-width: 30%;
+}

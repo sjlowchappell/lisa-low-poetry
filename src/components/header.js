@@ -14,8 +14,8 @@ const Header = () => {
                         <Link activeClassName={styles.active} to="/about/">
                             About
                         </Link>
-                        <Link activeClassName={styles.active} to="/poems/">
-                            Poems
+                        <Link activeClassName={styles.active} to="/excerpts/">
+                            Excerpts
                         </Link>
                         <Link
                             activeClassName={styles.active}

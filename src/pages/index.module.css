@@ -45,3 +45,47 @@
 /* potential main white: #F8E5EE, #FFF8F0, F5E9E2, F7F7FF */
 
 /* potential heroLine colors: #E3B5A4, #ED9B40, #FCFF6C  */
+
+.homeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0px;
+}
+
+.headings {
+    text-align: center;
+}
+
+.readMore {
+    background: var(--main-red);
+    padding: 10px 40px;
+    opacity: 1;
+    margin: 2.5rem;
+    border-radius: 40px;
+    border: 2px solid var(--main-red);
+}
+.readMore:hover {
+    color: var(--main-red);
+    background: var(--main-white);
+}
+
+.homeSeparator1 {
+    height: 40vh;
+    background: url(../images/openBooks.jpg);
+    background-color: #175676;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.homeSeparator2 {
+    height: 40vh;
+    background: url(../images/flowerTea.jpg);
+    background-color: #175676;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 50%;
+}
