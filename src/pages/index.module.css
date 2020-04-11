@@ -73,17 +73,19 @@
 }
 
 .homeSeparator1 {
-    height: 30vh;
-    background: url(../images/flowerTea.jpg);
+    background: url(../images/queen1.jpg);
+    /* OR */
+    /* background: url(../images/queenback.jpg); */
+    background-position: 50% 55%;
+    height: 50vh;
     background-color: #175676;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
-    background-position: 50% 50%;
 }
 
 .homeSeparator2 {
-    height: 30vh;
+    height: 45vh;
     background: url(../images/openBooks.jpg);
     background-color: #175676;
     background-repeat: no-repeat;
