@@ -12,15 +12,15 @@ const Contact = () => {
         <Layout>
             <SEO title="Contact" />
             <div className="wrapper">
+                <div>
+                    <h1 className="heading">Contact</h1>
+                </div>
                 <div className={styles.contactContainer}>
-                    <div>
-                        <h1 className="heading">Contact</h1>
-                        <p>
-                            Lisa Low can be reached at lisalowwrites@gmail.com.
-                            Alternatively, you can fill out the form below if
-                            you want to get in contact or learn more.
-                        </p>
-                    </div>
+                    <p>
+                        Lisa Low can be reached at lisalowwrites@gmail.com.
+                        Alternatively, you can fill out the form below if you
+                        want to get in contact or learn more.
+                    </p>
                     <form
                         name="contact"
                         action="/submit"

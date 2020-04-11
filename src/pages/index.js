@@ -49,7 +49,6 @@ const IndexPage = () => (
                     interval={9000}
                     transitionTime={1000}
                     showIndicators={false}
-                    stopOnHover={false}
                 >
                     <div className={styles.excerpt}>
                         <p>
