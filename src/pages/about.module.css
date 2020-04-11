@@ -2,8 +2,8 @@
     width: 100%;
     max-width: 350px;
     float: left;
-    padding: 0px 20px 0px 0px;
-    margin: 0px 25px 0px 0px;
+    padding: 7px 20px 0px 0px;
+    margin: 0px 10px 0px 0px;
 }
 .headshot {
     transition: 0.3s all;

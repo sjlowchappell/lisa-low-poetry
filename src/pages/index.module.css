@@ -77,7 +77,7 @@
     /* OR */
     /* background: url(../images/queenback.jpg); */
     background-position: 50% 45%;
-    height: 50vh;
+    height: 60vh;
     background-color: #175676;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -85,7 +85,7 @@
 }
 
 .homeSeparator2 {
-    height: 45vh;
+    height: 60vh;
     background: url(../images/openBooks.jpg);
     background-color: #175676;
     background-repeat: no-repeat;
