@@ -1,13 +1,21 @@
 import React from 'react';
-
+import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import styles from './about.module.css';
 
-const About = () => (
+const About = props => (
     <Layout>
         <SEO title="About" />
         <div className="wrapper">
             <h1 className="heading">About</h1>
+            <div className={styles.headshotContainer}>
+                <Img
+                    className={styles.headshot}
+                    fluid={props.data.headshot.childImageSharp.fluid}
+                    alt={`A nice photo of me smiling`}
+                />
+            </div>
             <p>
                 Lisa Low has had many careers---Theatre Critic; Book Reviewer;
                 Writer; Professor; Business Owner; Poet. She received her
@@ -67,3 +75,15 @@ const About = () => (
 );
 
 export default About;
+
+export const pageQuery = graphql`
+    query {
+        headshot: file(relativePath: { eq: "headshot3.jpg" }) {
+            childImageSharp {
+                fluid(maxWidth: 1000) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+    }
+`;

@@ -1,0 +1,21 @@
+.headshotContainer {
+    width: 100%;
+    max-width: 350px;
+    float: left;
+    padding: 0px 20px 0px 0px;
+    margin: 0px 25px 0px 0px;
+}
+.headshot {
+    transition: 0.3s all;
+}
+
+@media (max-width: 750px) {
+    .headshotContainer {
+        float: none;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .headshot {
+        border-radius: 50%;
+    }
+}

@@ -207,7 +207,7 @@ a:hover {
 }
 
 .wrapper {
-    max-width: 70rem;
+    max-width: 90rem;
     margin: 0 auto;
     padding: 0px 1rem;
 }
@@ -225,7 +225,7 @@ a:hover {
 .heading::before {
     position: absolute;
     top: 7.5rem;
-    left: 31rem;
+    left: 41rem;
     content: '';
     width: 6rem;
     border-bottom: 0.4rem solid var(--main-red);
