@@ -295,3 +295,11 @@ h2 {
 .carousel button.control-next.control-arrow::before {
     border-left: 8px solid var(--main-blue);
 }
+
+.carousel div.thumbs-wrapper {
+    margin: 0px;
+}
+
+ul.thumbs {
+    margin: 0px;
+}

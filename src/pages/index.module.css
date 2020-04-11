@@ -1,6 +1,6 @@
 .heroImage {
     height: 80vh;
-    background: url(../images/llCoverPhoto.jpg);
+    background: url(../images/queen1.jpg);
     background-color: #175676;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -12,7 +12,7 @@
 .heroLine {
     color: #e3b5a4;
     font-size: 5rem;
-    padding-top: 25rem;
+    padding-top: 30rem;
     line-height: 1.2;
     position: relative;
     z-index: 111;
@@ -22,7 +22,7 @@
     content: '\201C';
     color: var(--main-red);
     position: absolute;
-    top: 11rem;
+    top: 16rem;
     left: -11rem;
     font-size: 33rem;
     opacity: 0.6;
@@ -63,7 +63,7 @@
     background: var(--main-red);
     padding: 10px 40px;
     opacity: 1;
-    margin: 2.5rem;
+    margin: 3.3rem 0px;
     border-radius: 40px;
     border: 2px solid var(--main-red);
 }
@@ -73,7 +73,7 @@
 }
 
 .homeSeparator1 {
-    background: url(../images/queen1.jpg);
+    background: url(../images/llCoverPhoto.jpg);
     /* OR */
     /* background: url(../images/queenback.jpg); */
     background-position: 50% 55%;
@@ -96,6 +96,10 @@
 
 .excerpt {
     background: var(--main-white);
-    padding: 20px 50px;
+    padding: 1.4rem 5rem;
     text-align: left;
+}
+
+.aboutPara {
+    margin: 3rem 0px;
 }

@@ -19,7 +19,7 @@ const IndexPage = () => (
         <div className="wrapper">
             <div className={styles.homeSection}>
                 <h2 className={styles.headings}>About Lisa</h2>
-                <p>
+                <p className={styles.aboutPara}>
                     {' '}
                     Lisa Low has had many careers---Theatre Critic; Book
                     Reviewer; Writer; Professor; Business Owner; Poet. She
