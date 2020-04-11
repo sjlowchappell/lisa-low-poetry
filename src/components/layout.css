@@ -177,10 +177,14 @@ input::-moz-focus-inner {
 
 /* potential main white: #FFF8F0, F7F7FF, #F8E5EE, F5E9E2,  */
 :root {
-    --main-red: #931621;
+    --main-red: #5e0035;
     --main-blue: #175676;
     --main-white: #f7f7ff;
 }
+
+/* other color options: */
+/* Tyrian Purple 5E0035 */
+/* Original Red 931621 */
 
 /* GENERAL STYLES */
 html {
