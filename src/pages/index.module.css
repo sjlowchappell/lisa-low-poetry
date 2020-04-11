@@ -6,7 +6,7 @@
     background-blend-mode: multiply;
     background-size: cover;
     background-position: 50% 58%;
-    margin-top: -7rem;
+    /* margin-top: -7rem; */
 }
 
 .heroLine {
@@ -16,6 +16,7 @@
     line-height: 1.2;
     position: relative;
     z-index: 111;
+    margin-top: 0;
 }
 .heroLine::before {
     content: '\201C';
