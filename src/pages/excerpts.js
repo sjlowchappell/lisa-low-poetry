@@ -7,8 +7,10 @@ import styles from './excerpts.module.css';
 const Excerpts = () => (
     <Layout>
         <SEO title="Excerpts" />
-        <div className={styles.excerptsWrapper}>
+        <div className="wrapper">
             <h1 className="heading">Excerpts</h1>
+        </div>
+        <div className={styles.excerptsWrapper}>
             <div className={styles.tileContainer}>
                 <div className={styles.tile}>
                     <p>
