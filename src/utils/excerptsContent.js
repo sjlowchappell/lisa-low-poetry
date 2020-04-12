@@ -89,9 +89,29 @@ export default [
         publication: `Streetlight Magazine`,
     },
     {
-        title: ``,
-        publication: ``,
-        location: ``,
-        date: ``,
+        text: `“The sky was gray, and grayer still
+    the clouds, pulled like a shroud across.” 
+    `,
+        title: `“A Snowy Day”`,
+        publication: `BoomerLitMag`,
+    },
+    {
+        text: `“She has squeezed every drop from the 
+    lime of June, every bit of it lapped 
+    on the held-out tongue.”  
+    `,
+        title: `"Genesis of Dalloway”`,
+        publication: `Crack the Spine`,
+    },
+    {
+        text: `“When you said you didn’t like his gun, 
+    he hit you; when he locked you out,
+    your fist smashed the glass of his pick-
+    up truck. Even then he didn’t react: 
+    your skin pushed back like a lip and 
+    blood poured from you, smoking like heaven.”  
+    `,
+        title: `“Summer”`,
+        publication: `We Will Not Be Silenced`,
     },
 ];
