@@ -12,7 +12,17 @@ const Header = () => {
                         <img src={logo} alt="" />
                     </Link>
 
-                    <nav>
+                    <input
+                        type="checkbox"
+                        id="hamburger"
+                        className={styles.hamburgerInput}
+                    />
+                    <div className={styles.hamContainer}>
+                        <span className={styles.hamburgerLine}></span>
+                        <span className={styles.hamburgerLine}></span>
+                        <span className={styles.hamburgerLine}></span>
+                    </div>
+                    <nav className={styles.nav}>
                         <Link activeClassName={styles.active} to="/about/">
                             About
                         </Link>

@@ -255,27 +255,6 @@ h2 {
     font-size: 4rem;
 }
 
-.red1 {
-    width: 100px;
-    height: 100px;
-    background: #e3170a;
-}
-.red2 {
-    width: 100px;
-    height: 100px;
-    background: #931621;
-}
-.blue1 {
-    width: 100px;
-    height: 100px;
-    background: #41337a;
-}
-.blue2 {
-    width: 100px;
-    height: 100px;
-    background: #175676;
-}
-
 .footer {
     padding: 2rem 0;
     background: var(--main-red);
