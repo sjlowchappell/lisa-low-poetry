@@ -45,11 +45,11 @@ export default [
     {
         text: `“By day we are free to paint, as if 
         forever.  By night we weave through 
-        thestars, dragging our umbilical cords 
+        the stars, dragging our umbilical cords 
         like kite strings behind us.  No longer 
         beautiful.  No longer tied to hard 
         necessity, tender is the night we 
-        share, provisioned for eternity.
+        share, provisioned for eternity."
 `,
         title: `“Floating, for Eva”`,
         publication: `Tusculum Review`,
@@ -87,5 +87,11 @@ export default [
 `,
         title: `“Blunt Force”`,
         publication: `Streetlight Magazine`,
+    },
+    {
+        title: ``,
+        publication: ``,
+        location: ``,
+        date: ``,
     },
 ];

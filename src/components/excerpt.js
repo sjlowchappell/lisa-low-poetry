@@ -7,6 +7,7 @@ const Excerpt = ({ title, text, publication }) => {
             <p>{text}</p>
             <p className={styles.title}>{title}</p>
             <p className={styles.publication}>{publication}</p>
+            <span className={styles.publication}></span>
         </div>
     );
 };

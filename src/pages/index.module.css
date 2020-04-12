@@ -1,19 +1,20 @@
+/* lighten the blue of the background */
+
 .heroImage {
-    height: 80vh;
-    background: url(../images/queen1.jpg);
-    background-color: #175676;
+    height: 85vh;
+    background-image: url(../images/queen1.jpg);
+    background-color: rgba(23, 86, 118, 0.6);
     background-repeat: no-repeat;
-    background-blend-mode: multiply;
     background-size: cover;
-    background-position: 50% 58%;
-    /* margin-top: -7rem; */
+    background-position: 50% 50%;
     background-attachment: fixed;
+    background-blend-mode: multiply;
 }
 
 .heroLine {
     color: #e3b5a4;
     font-size: 5rem;
-    padding-top: 30rem;
+    padding-top: 34rem;
     line-height: 1.2;
     position: relative;
     z-index: 111;
@@ -23,7 +24,7 @@
     content: '\201C';
     color: var(--main-red);
     position: absolute;
-    top: 16rem;
+    top: 20rem;
     left: -11rem;
     font-size: 33rem;
     opacity: 0.6;
@@ -32,7 +33,7 @@
 }
 
 .heroLine::after {
-    content: '-Mrs. Dalloway';
+    content: '-Genesis of Dalloway';
     color: #e3b5a4;
     position: absolute;
     bottom: -7rem;
@@ -73,13 +74,14 @@
     background: var(--main-white);
 }
 
+/* wants this to be taller */
 .homeSeparator1 {
     background: url(../images/llCoverPhoto.jpg);
     /* OR */
     /* background: url(../images/queenback.jpg); */
     background-position: 50% 100%;
-    height: 50vh;
-    background-color: #175676;
+    height: 70vh;
+    background-color: rgba(23, 86, 118, 0.6);
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
@@ -87,9 +89,9 @@
 }
 
 .homeSeparator2 {
-    height: 50vh;
+    height: 70vh;
     background: url(../images/openBooks.jpg);
-    background-color: #175676;
+    background-color: rgba(23, 86, 118, 0.6);
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;

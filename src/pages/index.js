@@ -18,7 +18,7 @@ const IndexPage = () => (
         </div>
         <div className="wrapper">
             <div className={styles.homeSection}>
-                <h2 className={styles.headings}>About Lisa</h2>
+                <h2 className={styles.headings}>About Lisa Low</h2>
                 <p className={styles.aboutPara}>
                     {' '}
                     Lisa Low has had many careers---Theatre Critic; Book
