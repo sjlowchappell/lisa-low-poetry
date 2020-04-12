@@ -3,6 +3,7 @@ import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import styles from './about.module.css';
+import { graphql } from 'gatsby';
 
 const About = props => (
     <Layout>
