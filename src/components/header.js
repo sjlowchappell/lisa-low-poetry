@@ -1,15 +1,17 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import styles from './header.module.css';
+import logo from '../images/ll.png';
 
 const Header = () => {
     return (
         <header className={styles.header}>
             <div className="wrapper">
                 <div className={styles.headerContainer}>
-                    <h1>
-                        <Link to="/">LL</Link>
-                    </h1>
+                    <Link to="/" activeClassName={styles.active}>
+                        <img src={logo} alt="" />
+                    </Link>
+
                     <nav>
                         <Link activeClassName={styles.active} to="/about/">
                             About

@@ -319,3 +319,6 @@ ul.thumbs {
     text-align: left;
     margin-bottom: 1rem;
 }
+img {
+    display: block;
+}
