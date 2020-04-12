@@ -231,7 +231,7 @@ a:hover {
 .heading::before {
     position: absolute;
     top: 7.5rem;
-    left: 41rem;
+    left: 46.5%;
     content: '';
     width: 6rem;
     border-bottom: 0.4rem solid var(--main-red);
@@ -325,4 +325,10 @@ ul.thumbs {
 }
 img {
     display: block;
+}
+
+@media (max-width: 550px) {
+    .heading::before {
+        left: 42.5%;
+    }
 }
