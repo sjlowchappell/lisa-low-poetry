@@ -35,6 +35,21 @@ label {
     flex: 1 0 auto;
 }
 
+.button {
+    background: var(--main-red);
+    color: var(--main-white);
+    padding: 10px 40px;
+    opacity: 1;
+    margin: 3.3rem 0px;
+    border-radius: 40px;
+    border: 2px solid var(--main-red);
+    transition: 0.3s all;
+}
+.button:hover {
+    color: var(--main-red);
+    background: var(--main-white);
+}
+
 @media (max-width: 550px) {
     .nameAndEmailContainer {
         flex-direction: column;

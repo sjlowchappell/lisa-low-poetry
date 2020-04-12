@@ -251,7 +251,8 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    text-align: center;
+    font-size: 4rem;
 }
 
 .red1 {
@@ -308,4 +309,13 @@ h2 {
 
 ul.thumbs {
     margin: 0px;
+}
+
+.pubContainer {
+    margin-top: 7rem;
+}
+
+.pubContainer h2 {
+    text-align: left;
+    margin-bottom: 1rem;
 }

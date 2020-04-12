@@ -61,7 +61,9 @@ const Contact = () => {
                         </div>
 
                         <div className={styles.buttonContainer}>
-                            <button type="submit">Submit</button>
+                            <button type="submit" className={styles.button}>
+                                Submit
+                            </button>
                         </div>
                     </form>
                 </div>
