@@ -130,10 +130,10 @@
 @media (max-width: 400px) {
     .heroLine {
         font-size: 3rem;
-        padding-top: 14rem;
+        padding-top: 32rem;
     }
     .heroLine::before {
-        top: 8rem;
+        top: 26rem;
         left: -3.7rem;
         font-size: 15rem;
     }

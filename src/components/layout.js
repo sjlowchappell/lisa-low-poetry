@@ -30,7 +30,13 @@ const Layout = ({ children }) => {
                 <main className="siteContent">{children}</main>
                 <footer className="footer">
                     <div className="wrapper">
-                        © {new Date().getFullYear()} Lisa Low
+                        <p>© {new Date().getFullYear()} Lisa Low</p>
+                        <p>
+                            Designed and built by{' '}
+                            <a href="https://samlow-chappell.com">
+                                Sam Low-Chappell
+                            </a>
+                        </p>
                     </div>
                 </footer>
             </div>
