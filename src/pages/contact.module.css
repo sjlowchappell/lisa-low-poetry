@@ -49,6 +49,9 @@ label {
     color: var(--main-red);
     background: var(--main-white);
 }
+.buttonContainer {
+    text-align: center;
+}
 
 @media (max-width: 550px) {
     .nameAndEmailContainer {
@@ -56,8 +59,5 @@ label {
     }
     .inputContainer {
         margin: 20px 0px;
-    }
-    .buttonContainer {
-        text-align: center;
     }
 }
