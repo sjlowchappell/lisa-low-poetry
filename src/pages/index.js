@@ -63,35 +63,48 @@ const IndexPage = () => (
                             “Driving to Hotels for Lunch, the Day My Father
                             Died”
                         </p>
-                        <p>Phoebe: A Journey of Literary Arts</p>
+                        <p className="publication">
+                            Phoebe: A Journey of Literary Arts
+                        </p>
                     </div>
                     <div className={styles.excerpt}>
                         <p>
-                            “A cargo of roses washing up on a shore; forty hands
-                            held out to touch me, could not be more beautiful
-                            than she is tonight, her eyes reflecting light,
-                            turning the mantelpiece, the window, the curtains,
-                            and the night.”
+                            “My sister remembers childhood as standing up to her
+                            waist in mist, no one else around. My anger toward
+                            my mother is fog through which I barely see her.
+                            When she puts her arms around me, nothing burns the
+                            mist off. Nothing comes clear.”
                         </p>
-                        <p>
-                            “Driving to Hotels for Lunch, the Day My Father
-                            Died”
-                        </p>
-                        <p>Excerpt 2</p>
+                        <p>“Absent Parents”</p>
+                        <p className="publication">Evening Street Review</p>
                     </div>
                     <div className={styles.excerpt}>
                         <p>
-                            “A cargo of roses washing up on a shore; forty hands
-                            held out to touch me, could not be more beautiful
-                            than she is tonight, her eyes reflecting light,
-                            turning the mantelpiece, the window, the curtains,
-                            and the night.”
+                            “By day we are free to paint, as if forever. By
+                            night we weave through thestars, dragging our
+                            umbilical cords like kite strings behind us. No
+                            longer beautiful. No longer tied to hard necessity,
+                            tender is the night we share, provisioned for
+                            eternity.”
                         </p>
+                        <p>“Floating, for Eva”</p>
+                        <p className="publication">Tusculum Review</p>
+                    </div>
+                    <div className={styles.excerpt}>
                         <p>
-                            “Driving to Hotels for Lunch, the Day My Father
-                            Died”
+                            “From a distance I saw a frog, standing like a
+                            soldier in a field of summer grass.”
                         </p>
-                        <p>Excerpt 3</p>
+                        <p>“Blunt Force”</p>
+                        <p className="publication">Streetlight Magazine</p>
+                    </div>
+                    <div className={styles.excerpt}>
+                        <p>
+                            “She has squeezed every drop from the lime of June,
+                            every bit of it lapped on the held-out tongue.”
+                        </p>
+                        <p>“Genesis of Mrs. Dalloway”</p>
+                        <p className="publication">Crack the Spine</p>
                     </div>
                 </Carousel>
 

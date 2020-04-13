@@ -302,6 +302,11 @@ ul.thumbs {
     text-align: left;
     margin-bottom: 1rem;
 }
+
+.publication {
+    font-style: italic;
+}
+
 img {
     display: block;
 }

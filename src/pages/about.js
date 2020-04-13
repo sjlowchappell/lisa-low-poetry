@@ -18,58 +18,79 @@ const About = props => (
                 />
             </div>
             <p>
-                Lisa Low has had many careers---Theatre Critic; Book Reviewer;
-                Writer; Professor; Business Owner; Poet. She received her
+                Lisa Low has had many careers---theatre critic, professor, book
+                reviewer, writer, business owner, and poet. She received her
                 doctorate in English Literature from the University of
                 Massachusetts in 1986 and spent twenty years, from age 33 to 53,
                 as an English professor, teaching at University of
-                Massachusetts; Boston University; Cornell College; Colby
-                College; and Pace University. In addition to her work as an
-                educator, from 1980-1985, Low practiced as a film and theatre
-                critic, including for Christian Science Monitor Broadcasting and
-                The Boston Herald.{' '}
+                Massachusetts, Boston University, Cornell College, Colby
+                College, and Pace University. In addition to her work as an
+                educator, Low practiced briefly as a theatre critic for{' '}
+                <span className={styles.publication}>
+                    Christian Science Monitor Broadcasting
+                </span>
+                .
             </p>
             <p>
-                After resigning her Professorship at Pace University, NYC
-                Campus, in 2001 to raise two children born to her in her
-                mid-forties, leaving the Brooklyn Bridge campus just two months
-                before 9/11, Lisa Low---by necessity turning
-                breadwinner---started what eventually became a multi-million
-                dollar public relations and grant writing firm serving
-                commercial, non-profit, and municipal clients for fifteen years.
+                After resigning her Professorship at Pace University in 2001 to
+                raise two children born in her mid-forties, Lisa Low founded a
+                grant writing firm in 2005 which is still operating.
             </p>
             <p>
-                Over the life of her career as a writer, Lisa Low’s reviews,
-                interviews, and academic essays have appeared in The
-                Massachusetts Review, The Boston Review, Cross Currents, and the
-                Boston Herald. She is co-editor with Anthony Harding of Milton,
-                the Metaphysicals, and Romanticism (Cambridge University Press,
-                1994); and she has published numerous scholarly essays on
-                Virginia Woolf.
+                Lisa Low’s reviews, interviews, and academic essays have
+                appeared in{' '}
+                <span className={styles.publication}>
+                    The Massachusetts Review
+                </span>
+                , <span className={styles.publication}>The Boston Review</span>,{' '}
+                <span className={styles.publication}> Cross Currents</span>, and{' '}
+                <span className={styles.publication}>The Boston Herald</span> .
+                She is co-editor with Anthony Harding of{' '}
+                <span className={styles.publication}>
+                    Milton, the Metaphysicals, and Romanticism
+                </span>{' '}
+                (Cambridge University Press, 1994); and she has published
+                numerous scholarly essays on Virginia Woolf.
             </p>
             <p>
-                Lisa Low’s essay “Ridding Ourselves of Macbeth” (The
-                Massachusetts Review 1986), a runner-up for the Shakespeare
-                Prize at University of Massachusetts, was selected by Harold
-                Bloom in 1991 for his Major Literary Characters Series; and her
-                essay “In Defense of Hedda” (Massachusetts Studies in English
-                1982) was similarly selected by Gale Research for the mammoth
-                resource tool, Drama Criticism, as one of the five best
-                twentieth century commentaries available on Ibsen’s Hedda
-                Gabler.{' '}
+                Lisa Low’s essay “Ridding Ourselves of Macbeth” (
+                <span className={styles.publication}>
+                    The Massachusetts Review
+                </span>
+                , 1986) was selected by Harold Bloom for his Major Literary
+                Characters Series (Chelsea House, 1992); and her essay “In
+                Defense of Hedda” (
+                <span className={styles.publication}>
+                    Massachusetts Studies in English
+                </span>
+                , 1982) was similarly selected by Gale Research for the mammoth
+                resource tool,{' '}
+                <span className={styles.publication}> Drama Criticism </span>,
+                as one of five best essays available on{' '}
+                <span className={styles.publication}>Hedda Gabler</span>.
             </p>
             <p>
-                In 1979 Lisa Low enrolled in the M.F.A. program at the
-                University of Massachusetts, but it has taken getting to the
-                other side of her career as a mother and breadwinner for her to
-                turn to poetry---and managing its publication----with maximum
-                attention. Her poems have appeared in, been accepted at, or are
-                forthcoming from The Potomac Review; Crack the Spine, Delmarva
-                Review, Broken Plate; Tusculum; BoomerLitMag, Litbreak Magazine,
-                Evening Street Review, Streetlight, Straight Forward Poetry, and
-                Phoebe. Her poetry has been anthologized in Intro 11 (Associated
-                Writing Programs/NEH) and We Will Not Be Silenced (IndieBlue
-                Press).{' '}
+                Lisa Low’s poems have appeared in or are forthcoming from{' '}
+                <span className={styles.publication}>Spillway</span>,{' '}
+                <span className={styles.publication}>Streetlight Magazine</span>
+                , <span className={styles.publication}>The Potomac Review</span>
+                , <span className={styles.publication}>Crack the Spine</span>,{' '}
+                <span className={styles.publication}> Delmarva Review</span>,{' '}
+                <span className={styles.publication}> Broken Plate </span>,{' '}
+                <span className={styles.publication}>Tusculum</span>,{' '}
+                <span className={styles.publication}>BoomerLitMag</span>,{' '}
+                <span className={styles.publication}>Litbreak Magazine</span>,{' '}
+                <span className={styles.publication}>
+                    Evening Street Review
+                </span>{' '}
+                , and <span className={styles.publication}>Phoebe</span>. Her
+                poetry has been anthologized in{' '}
+                <span className={styles.publication}>Intro 11</span>,
+                (Associated Writing Programs/NEH) and{' '}
+                <span className={styles.publication}>
+                    We Will Not Be Silenced
+                </span>{' '}
+                (IndieBlue Press).
             </p>
         </div>
     </Layout>
