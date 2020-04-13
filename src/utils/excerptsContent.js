@@ -37,7 +37,7 @@ export default [
         farm. The afternoon lingers, like a 
         finger on a rim. On it our bodies 
         buzz: legs tense; haunches high; 
-        needle points poised”
+        needle points poised.”
 `,
         title: `“Iowa Heat”`,
         publication: `Evening Street Review`,
@@ -75,7 +75,7 @@ export default [
         text: `“Only look through that slat and you will
         see wild flowers dancing in the field below, 
         bending their heads by miraculous device 
-        of thin green stems held up” 
+        of thin green stems held up.” 
 `,
         title: `“By Some God Meticulously Kept” `,
         publication: `Delmarva Review`,
