@@ -5,6 +5,7 @@ import SEO from '../components/seo';
 import styles from './excerpts.module.css';
 import Excerpt from '../components/excerpt';
 import excerptsContent from '../utils/excerptsContent';
+import { uuid } from 'uuidv4';
 
 const Excerpts = () => (
     <Layout>
@@ -22,7 +23,7 @@ const Excerpts = () => (
                             text={text}
                             publication={publication}
                             index={index}
-                            key={index}
+                            key={uuid()}
                         />
                     );
                 })}
