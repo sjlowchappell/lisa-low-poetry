@@ -119,23 +119,28 @@ const IndexPage = () => (
                 <h2 className={styles.headings}>Recent Publications</h2>
                 <div>
                     <p>
-                        “A Snowy Day,” BoomerLitMag (Online) Volume V, No. 2
-                        (2020)
+                        “A Snowy Day,”{' '}
+                        <span className="publication">BoomerLitMag</span>,
+                        Volume V, No. 2
                     </p>
                     <p>
-                        “Poet in New York,” BoomerLitMag, (Online) Volume V, No.
-                        2 (2020)
+                        “Poet in New York,”{' '}
+                        <span className="publication">BoomerLitMag</span>,
+                        Volume V, No. 2
                     </p>
                     <p>
-                        “Couples, Green with Envy,” Litbreak Magazine (Online),
-                        New York City, March 19, 2020
-                    </p>
-                    <p>
-                        “On a Farm,” Litbreak Magazine (Online), New York City,
+                        “Couples, Green with Envy,”{' '}
+                        <span className="publication">Litbreak Magazine</span>,
                         March 19, 2020
                     </p>
                     <p>
-                        “Cut Back,” Litbreak Magazine (Online), New York City,
+                        “On a Farm,”{' '}
+                        <span className="publication">Litbreak Magazine</span>,
+                        March 19, 2020
+                    </p>
+                    <p>
+                        “Cut Back,”{' '}
+                        <span className="publication">Litbreak Magazine</span>,
                         March 19, 2020
                     </p>
                 </div>
