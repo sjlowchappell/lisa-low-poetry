@@ -20,17 +20,18 @@ const IndexPage = () => (
             <div className={styles.homeSection}>
                 <h2 className={styles.headings}>About Lisa Low</h2>
                 <p className={styles.aboutPara}>
-                    {' '}
-                    Lisa Low has had many careers---Theatre Critic; Book
-                    Reviewer; Writer; Professor; Business Owner; Poet. She
+                    Lisa Low has had many careers---theatre critic, professor,
+                    book reviewer, writer, business owner, and poet. She
                     received her doctorate in English Literature from the
-                    University of Massachusetts in 1986 and spent twenty years,
-                    from age 33 to 53, as an English professor, teaching at
-                    University of Massachusetts; Boston University; Cornell
-                    College; Colby College; and Pace University. In addition to
-                    her work as an educator, from 1980-1985, Low practiced as a
-                    film and theatre critic, including for Christian Science
-                    Monitor Broadcasting and The Boston Herald.
+                    University of Massachusetts in 1986 and spent twenty years
+                    as an English professor, teaching at University of
+                    Massachusetts, Boston University, Cornell College, Colby
+                    College, and Pace University. In addition to her work as an
+                    educator, Low practiced briefly as a theatre critic for{' '}
+                    <span class="publication">
+                        Christian Science Monitor Broadcasting
+                    </span>
+                    .
                 </p>
                 <Link className={styles.readMore} to="/about/">
                     Read More

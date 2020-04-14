@@ -88,10 +88,10 @@ const About = props => (
                 <span className={styles.publication}>Litbreak Magazine</span>,{' '}
                 <span className={styles.publication}>
                     Evening Street Review
-                </span>{' '}
+                </span>
                 , and <span className={styles.publication}>Phoebe</span>. Her
                 poetry has been anthologized in
-                <span className={styles.publication}>Intro 11</span>,
+                <span className={styles.publication}> Intro 11</span>,
                 (Associated Writing Programs/NEH) and{' '}
                 <span className={styles.publication}>
                     We Will Not Be Silenced
