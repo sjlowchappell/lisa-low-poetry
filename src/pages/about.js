@@ -66,8 +66,8 @@ const About = props => (
                 <span className={styles.publication}>
                     Massachusetts Studies in English{' '}
                 </span>{' '}
-                , 1982) was similarly selected by Gale Research for the mammoth
-                resource tool,{' '}
+                , 1982) was similarly selected by Gale Research for the resource
+                tool,{' '}
                 <span className={styles.publication}> Drama Criticism </span>,
                 as one of the best essays available on{' '}
                 <span className={styles.publication}>Hedda Gabler </span>.
