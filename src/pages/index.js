@@ -120,6 +120,17 @@ const IndexPage = () => (
                 <h2 className={styles.headings}>Recent Publications</h2>
                 <div>
                     <p>
+                        {' '}
+                        “Love Poem to Oswald,”{' '}
+                        <span className="publication">Potomac Review</span>,
+                        #66, Spring, 2020
+                    </p>
+                    <p>
+                        “On Throwing Away My Daughter’s Christmas Card Photo,”{' '}
+                        <span className="publication">Potomac Review</span>,
+                        #66, Spring, 2020.
+                    </p>
+                    <p>
                         “A Snowy Day,”{' '}
                         <span className="publication">BoomerLitMag</span>,
                         Volume V, No. 2
