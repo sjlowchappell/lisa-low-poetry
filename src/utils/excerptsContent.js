@@ -4,12 +4,11 @@ export default [
         a shore; forty hands held out to touch 
         me, could not be more beautiful
         than she is tonight, her eyes reflecting
-        light, turning the mantelpiece, the
-        window, the curtains, and the night.” 
+        light, turning to the violets, the mantelpiece, the window and the night.” 
         `,
         title: `“Driving to Hotels for Lunch, the Day My 
         Father Died”`,
-        publication: `Phoebe: A Journey of Literary Arts`,
+        publication: `Phoebe: A Journal of Literary Arts`,
     },
     {
         text: `“My sister remembers childhood as 
@@ -24,11 +23,10 @@ export default [
         publication: `Evening Street Review`,
     },
     {
-        text: `“Last night the snow came down in a fury.
-        A sky-wide flurry of white winged beauty.”
+        text: `“Make a glad noise, it is spring. Up from the snow the crocus has sprung, fresh from its rubbery root. High above, in pyramids of love, the sparrows also are singing.”
 `,
-        title: `“Doing a Good Job at Sixty”`,
-        publication: `Evening Street Review`,
+        title: `“Make a Glad Noise”`,
+        publication: `Litbreak Magazine`,
     },
     {
         text: `“I tell him I teach, read, write poetry.
