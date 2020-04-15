@@ -57,7 +57,7 @@ const IndexPage = () => (
                             “A cargo of roses washing up on a shore; forty hands
                             held out to touch me, could not be more beautiful
                             than she is tonight, her eyes reflecting light,
-                            turning the mantelpiece, the window, the curtains,
+                            turning to the violets, the mantelpiece, the window
                             and the night.”
                         </p>
                         <p>
@@ -65,7 +65,7 @@ const IndexPage = () => (
                             Died”
                         </p>
                         <p className="publication">
-                            Phoebe: A Journey of Literary Arts
+                            Phoebe: A Journal of Literary Arts
                         </p>
                     </div>
                     <div className={styles.excerpt}>
@@ -82,7 +82,7 @@ const IndexPage = () => (
                     <div className={styles.excerpt}>
                         <p>
                             “By day we are free to paint, as if forever. By
-                            night we weave through thestars, dragging our
+                            night we weave through the stars, dragging our
                             umbilical cords like kite strings behind us. No
                             longer beautiful. No longer tied to hard necessity,
                             tender is the night we share, provisioned for
