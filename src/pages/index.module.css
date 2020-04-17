@@ -101,8 +101,18 @@
 
 .excerpt {
     background: var(--main-white);
-    padding: 1.4rem 5rem;
+    padding: 1.4rem 4rem;
     text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.excerpt > * {
+    margin: 1rem;
+}
+
+.title {
+    margin-top: 4rem;
 }
 
 .aboutPara {

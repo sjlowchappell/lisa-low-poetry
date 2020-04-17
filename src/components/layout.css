@@ -272,7 +272,8 @@ h2 {
 }
 
 .carousel-root {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .carousel button.control-prev.control-arrow::before {
@@ -309,6 +310,12 @@ ul.thumbs {
 
 img {
     display: block;
+}
+
+@media (max-width: 650px) {
+    .carousel-root {
+        width: 100%;
+    }
 }
 
 @media (max-width: 550px) {

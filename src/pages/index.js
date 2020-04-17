@@ -28,7 +28,7 @@ const IndexPage = () => (
                     Massachusetts, Boston University, Cornell College, Colby
                     College, and Pace University. In addition to her work as an
                     educator, Low practiced briefly as a theatre critic for{' '}
-                    <span class="publication">
+                    <span className="publication">
                         Christian Science Monitor Broadcasting
                     </span>
                     .
@@ -53,14 +53,13 @@ const IndexPage = () => (
                     showThumbs={false}
                 >
                     <div className={styles.excerpt}>
-                        <p>
-                            “A cargo of roses washing up on a shore; forty hands
-                            held out to touch me, could not be more beautiful
-                            than she is tonight, her eyes reflecting light,
-                            turning to the violets, the mantelpiece, the window
-                            and the night.”
-                        </p>
-                        <p>
+                        <p>“A cargo of roses washing up on</p>
+                        <p> a shore; forty hands held out to touch</p>
+                        <p> me, could not be more beautiful</p>
+                        <p>than she is tonight, her eyes reflecting</p>{' '}
+                        <p>light, turning to the violets, the </p>{' '}
+                        <p>mantelpiece, the window and the night.”</p>
+                        <p className={styles.title}>
                             “Driving to Hotels for Lunch, the Day My Father
                             Died”
                         </p>
@@ -69,42 +68,41 @@ const IndexPage = () => (
                         </p>
                     </div>
                     <div className={styles.excerpt}>
-                        <p>
-                            “My sister remembers childhood as standing up to her
-                            waist in mist, no one else around. My anger toward
-                            my mother is fog through which I barely see her.
-                            When she puts her arms around me, nothing burns the
-                            mist off. Nothing comes clear.”
-                        </p>
-                        <p>“Absent Parents”</p>
+                        <p>“My sister remembers childhood as</p>
+                        <p> standing up to her waist in mist, no</p>{' '}
+                        <p>one else around. My anger toward</p>
+                        <p>my mother is fog through which I</p>{' '}
+                        <p>barely see her. When she puts her</p>{' '}
+                        <p>arms around me, nothing burns the</p>
+                        <p>mist off. Nothing comes clear.”</p>
+                        <p className={styles.title}>“Absent Parents”</p>
                         <p className="publication">Evening Street Review</p>
                     </div>
                     <div className={styles.excerpt}>
-                        <p>
-                            “By day we are free to paint, as if forever. By
-                            night we weave through the stars, dragging our
-                            umbilical cords like kite strings behind us. No
-                            longer beautiful. No longer tied to hard necessity,
-                            tender is the night we share, provisioned for
-                            eternity.”
-                        </p>
-                        <p>“Floating, for Eva”</p>
+                        <p>“By day we are free to paint, as if</p>
+                        <p>forever. By night we weave through</p>
+                        <p>the stars, dragging our umbilical cords</p>
+                        <p>like kite strings behind us. No longer </p>
+                        <p>beautiful. No longer tied to hard</p>
+                        <p>necessity, tender is the night we</p>
+                        <p>share, provisioned for eternity.”</p>
+                        <p className={styles.title}>“Floating, for Eva”</p>
                         <p className="publication">Tusculum Review</p>
                     </div>
                     <div className={styles.excerpt}>
-                        <p>
-                            “From a distance I saw a frog, standing like a
-                            soldier in a field of summer grass.”
-                        </p>
-                        <p>“Blunt Force”</p>
+                        <p>“From a distance I saw a frog,</p>
+                        <p>standing like a soldier in a field</p>
+                        <p>of summer grass.”</p>
+                        <p className={styles.title}>“Blunt Force”</p>
                         <p className="publication">Streetlight Magazine</p>
                     </div>
                     <div className={styles.excerpt}>
-                        <p>
-                            “She has squeezed every drop from the lime of June,
-                            every bit of it lapped on the held-out tongue.”
+                        <p>“She has squeezed every drop from the</p>
+                        <p>lime of June, every bit of it lapped</p>
+                        <p>on the held-out tongue.”</p>
+                        <p className={styles.title}>
+                            “Genesis of Mrs. Dalloway”
                         </p>
-                        <p>“Genesis of Mrs. Dalloway”</p>
                         <p className="publication">Crack the Spine</p>
                     </div>
                 </Carousel>
