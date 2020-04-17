@@ -1,7 +1,7 @@
 export const poetryForthcoming = [
-    `“On Last Visiting My Son,” <span class="publication">The Virginia Normal </span> Spring 2021 (forthcoming)`,
-    `“Suburban Encounter,” <span class="publication">The Virginia Normal</span> Spring 2021 (forthcoming)`,
-    `“Canada Ferry,” <span class="publication">The Virginia Normal</span> Spring 2021 (forthcoming)`,
+    `“On Last Visiting My Son,” <span class="publication">The Virginia Normal,</span> Spring 2021 (forthcoming)`,
+    `“Suburban Encounter,” <span class="publication">The Virginia Normal,</span> Spring 2021 (forthcoming)`,
+    `“Canada Ferry,” <span class="publication">The Virginia Normal,</span> Spring 2021 (forthcoming)`,
     `“On the Night You Were Born,” <span class="publication">Spillway</span> (forthcoming)`,
     `“Blunt Force,” <span class="publication">Streetlight Magazine</span> (forthcoming)`,
     `“Absent Parents,” <span class="publication"> Evening Street Review</span> (forthcoming)`,
