@@ -34,7 +34,7 @@ const About = props => (
             <p>
                 After resigning her Professorship at Pace University in 2001 to
                 raise two children born to her in her mid-forties, Lisa Low
-                founded a grant writing firm that for 15 years has been
+                founded a grant writing firm that for fifteen years has been
                 responsible for bringing millions of dollars to communities
                 across Connecticut.
             </p>
@@ -74,10 +74,12 @@ const About = props => (
             </p>
             <p>
                 In 1979 Lisa Low enrolled in the M.F.A. program at the
-                University of Massachusetts, but it has taken 40 years, 3
-                careers, and 2 children for her to return to poetry full time.
-                Lisa Low’s poems have appeared in or are forthcoming from{' '}
-                <span className={styles.publication}>Spillway</span>,{' '}
+                University of Massachusetts, but it has taken forty years, three
+                careers, and two children for her to return to poetry full time.
+                Lisa Low’s poems have appeared in or are forthcoming from
+                <span className={styles.publication}>
+                    The Virginia Normal
+                </span>, <span className={styles.publication}>Spillway</span>,{' '}
                 <span className={styles.publication}>Streetlight Magazine</span>
                 , <span className={styles.publication}>The Potomac Review</span>
                 , <span className={styles.publication}>Crack the Spine</span>,{' '}
@@ -91,7 +93,7 @@ const About = props => (
                 </span>
                 , and <span className={styles.publication}>Phoebe</span>. Her
                 poetry has been anthologized in
-                <span className={styles.publication}> Intro 11</span>,
+                <span className={styles.publication}>Intro 11 </span>
                 (Associated Writing Programs/NEH) and{' '}
                 <span className={styles.publication}>
                     We Will Not Be Silenced
